@@ -14,10 +14,10 @@ Release:        1%{?dist}
 License:        GPLv2+ and LGPLv2+ and MIT
 
 URL:            http://sox.sourceforge.net/
-#Source: http://downloads.sourceforge.net/%{realname}/%{realname}-%{version}.tar.gz
+Source: http://downloads.sourceforge.net/%{realname}/%{realname}-%{version}.tar.gz
 #Modified source tarball with libgsm license, without unlicensed liblpc10
 #Source: http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-Source:         %{realname}-%{version}.tar.gz
+#Source:         %{realname}-%{version}.tar.gz
 
 Patch0:         sox-14.4.2-lsx_error.patch
 Patch1:         sox-14.4.1-lpc10.patch
